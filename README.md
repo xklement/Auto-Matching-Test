@@ -31,6 +31,8 @@ docker compose up -d
 npm install
 npm run db:reset
 npm start
+npm start:all
+npm start -- --siren <siren>
 ```
 
 `npm run db:reset` drops the schema, re-creates it and reseeds it. You can run it as often as
